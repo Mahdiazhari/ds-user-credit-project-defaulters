@@ -2,6 +2,8 @@
 
 This project aims to analyze the credit card/borrowing usage of Indonesian customers.
 
+Please see the attached presentation slide or accompanying notebook titled "User Credit Data Project - Data Analysis" for detailed results regarding analysis of the Data.
+
 ## Introduction
 
 As a lender/financial company providing loans, we have to be very selective in deciding our future borrowers/customers.
@@ -47,6 +49,7 @@ The aim of this project is to identify the characteristics of a customer/user wh
 
 ## Exploratory Data Analysis Results
 
+Reminder:
 Please see the attached presentation slide or accompanying notebook titled "User Credit Data Project - Data Analysis" for detailed results regarding analysis of the Data.
 
 **Overall statistics**:
@@ -103,7 +106,7 @@ Two Random Forest models were created, one without parameter tuning, the other u
 
 ![Features Importances](/images/features-importances.png)
 
-## Summary
+### Model/Solution Results
 
 - 2 Random Forest Classification Models were made using base Random Forest (First model) and used Grid Search to tune params (Second Model):
   - The First model has better Recall and AUC score
@@ -111,5 +114,5 @@ Two Random Forest models were created, one without parameter tuning, the other u
 - The first model obtained an accuracy of 78%, the second model got 91%
 - Both of these models could not beat the baseline accuracy of 92.65 %
 - Total usage (both retail usage and total usage per limit in 3months) and payment ratio are the most important features to predict Default/Non-Default
-- Select models based on recall score, This is because a high recall score would really help in selecting the actual amount of defaulters. False negatives are costly because we should not give credit to people who cannot pay back
+- Select models based on recall score, This is because a high recall score would really help in selecting the actual amount of defaulters. False negatives are costly because we should not give credit to people who cannot pay back their loans
 - Need to balance costs of false positives vs false negatives in the prediction model
