@@ -1,4 +1,4 @@
-# User Credit Data: Segregating Customers into Defaulters vs Non-Defaulters to minimize credit risk
+# Customer Credit Data: Segregating Customers into Defaulters vs Non-Defaulters to minimize credit risk
 
 This project aims to analyze the credit card/borrowing behavior of Indonesian customers.
 
