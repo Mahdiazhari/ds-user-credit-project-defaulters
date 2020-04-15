@@ -1,13 +1,32 @@
-# User Credit Data: Analyzing Characteristics of Defaulters to minimize credit risk
+# User Credit Data: Segregating Customers into Defaulters vs Non-Defaulters to minimize credit risk
 
-This project aims to analyze the credit card/borrowing usage of Indonesian customers.
+This project aims to analyze the credit card/borrowing behavior of Indonesian customers.
 
 Please see the attached presentation slide or accompanying notebook titled "User Credit Data Project - Data Analysis" for detailed results regarding analysis of the Data.
 
 ## Introduction
 
 As a lender/financial company providing loans, we have to be very selective in deciding our future borrowers/customers.
-Therefore, we would really like to know the **characteristics** of borrowers who eventually cannot pay back their loans (Default on loan).
+If lenders take in too many high risk borrowers, then negative effects for lenders include:
+
+- Having to pay costs to recoup on loans
+- Missing opportunity to lend the money elsewhere
+
+For the borrowers/customers, defaulting on loans could lead them to:
+
+- Get penalties for late payments
+- Loss of collateral through debt collection to give back the lender's money
+- Costs from legal action taken by lenders to get their money back
+
+Therefore, we would really like to know the **characteristics** of borrowers who eventually cannot pay back their loans (Default on loan). And it would be very helpful to be able to somehow
+segregate these two groups.
+
+## Research Question
+
+The aim of this project is to identify the characteristics of a customer/user who will eventually default on their loans. Thus, I aim to answer the following questions:
+
+1. What are the characteristics of defaulters vs non defaulters?
+2. Can we build a good classifier to classify our userbase into Default/Non-Default customers?
 
 ## Dataset
 
@@ -39,13 +58,6 @@ This is the description of all the features in the data:
 - default_flag: Credit default flag (1: default; 0: non_default)
 
 Default refers to a user not being able to pay their debts on time.
-
-## Research Question
-
-The aim of this project is to identify the characteristics of a customer/user who will eventually default on their loans. Thus, I aim to answer the following questions:
-
-1. What are the characteristics of defaulters vs non defaulters?
-2. Can we build a good classifier to classify our userbase into Default/Non-Default customers?
 
 ## Exploratory Data Analysis Results
 
