@@ -1,4 +1,4 @@
-# User Credit Data
+# User Credit Data: Analyzing Characteristics of Defaulters to minimize credit risk
 
 This project aims to analyze the credit card/borrowing usage of Indonesian customers.
 
