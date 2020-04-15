@@ -98,6 +98,8 @@ Please see the attached presentation slide or accompanying notebook titled "User
 
 ## Model Development
 
+Please see the notebook titled "User Credit Data Project - Solution Development" for detailed results regarding the model development process.
+
 ### Baseline Result
 
 This is a classification problem, as we need to identify which users belong to which group, from a total of 2 groups: 1. Defaulters (1) 2. Non-Defaulters (0)
