@@ -101,7 +101,7 @@ Two Random Forest models were created, one without parameter tuning, the other u
 
 #### Features Importances
 
-![Features Importances](\images\features-importances.png)
+![Features Importances](/images/features-importances.png)
 
 ## Summary
 
